@@ -107,7 +107,7 @@ def ct_get_lists(api_token=""):
         print(f"Code error: {out['code']}")
         print(f"Message: {out['message']}")
     return r.json()
-token = "input valid token here"
+token = "input valid token here" # input your API token here
 
 def ct_search(count=None, start_date= None, end_date= None, include_history= None,inListIds = None,language = None,
                  sort_by="date", types=None, search_term=None,searchTerm = None, an=None,no=None,
